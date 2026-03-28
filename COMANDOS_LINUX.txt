@@ -1,0 +1,40 @@
+COMANDOS DE EJECUCIÓN MANUAL (ZORINOS/LINUX)
+==============================================
+
+Para ejecutar cada proyecto en la terminal de Linux, 
+entrá a la carpeta correspondiente y tirá 'dotnet run':
+
+1. SRP (Single Responsibility Principle):
+-----------------------------------------
+cd 1.SRP/CleanTeeth/SOLIDPrinciples
+dotnet run
+
+2. ISP (Interface Segregation Principle):
+-----------------------------------------
+cd 2.ISP/CleanTeeth/SOLIDPrinciples
+dotnet run
+
+3. DIP (Dependency Inversion Principle):
+-----------------------------------------
+cd 3.DIP/CleanTeeth/SOLIDPrinciples
+dotnet run
+
+4. Open/Closed (Adapter Pattern):
+---------------------------------
+cd 4Principio/CleanTeeth/SOLIDPrinciples
+dotnet run
+
+5. LSP (Liskov Substitution Principle):
+---------------------------------------
+cd LSP/CleanTeeth/SOLIDPrinciples
+dotnet run
+
+6. STUPID (Código Mal Diseñado):
+--------------------------------
+cd STUPID/CleanTeeth/SOLIDPrinciples_STUPID
+dotnet run
+
+NOTA: Recordá que para que esto funcione, tenés que tener instalado 
+el SDK de .NET (preferentemente la versión 8 o la que estés usando).
+Si 'dotnet' no se reconoce, instalalo con:
+sudo apt install dotnet-sdk-8.0
