@@ -1,0 +1,9 @@
+# Forzar que los scripts de shell siempre usen finales de línea LF (Linux)
+*.sh text eol=lf
+
+# Para archivos de C# y soluciones, que Git maneje la conversión automática según el OS
+*.cs text
+*.csproj text
+*.sln text
+*.slnx text
+*.txt text
