@@ -12,7 +12,6 @@ namespace SOLIDPrinciples.Infrastructure.Notifications.Adapters;
 public class EmailNotificationService : INotificationService
 {
     private readonly IEmailService _emailService;
-    private readonly SmptpEmailService _smtpEmailService;
 
     //Inyec
     public EmailNotificationService(IEmailService emailService)

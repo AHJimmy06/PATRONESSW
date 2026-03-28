@@ -14,7 +14,7 @@ internal class Program
     {
         Console.WriteLine("╔═════════════════════════════════════════════════════════════════════════════════════════╗");
         Console.WriteLine("║  PRINCIPIOS SOLID                                                                       ║");
-        Console.WriteLine("║  PASO 2: INTERFACE SEGREGATION PRINCIPLE (ISP) - PRINCIPIO DE SEGREGACIÓN DE INTERFACES ║");
+        Console.WriteLine("║  PASO 3: DEPENDENCY INVERSION PRINCIPLE (DIP) - PRINCIPIO DE INVERSION DE DEPENDENCIAS  ║");
         Console.WriteLine("║  Sistema CleanTeeth - REFACTORIZADO                                                     ║");
         Console.WriteLine("╚═════════════════════════════════════════════════════════════════════════════════════════╝\n");
 

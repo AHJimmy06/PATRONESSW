@@ -7,7 +7,7 @@ using System.Text;
 
 namespace SOLIDPrinciples.Infrastructure.Notifications.Adapters;
 
-internal class MessagingNotificationService : INotificationService
+public class MessagingNotificationService : INotificationService
 {
     private readonly IMessagingService _messagingService;
 
